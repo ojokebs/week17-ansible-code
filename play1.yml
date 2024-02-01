@@ -1,0 +1,27 @@
+---
+- hosts: all
+ 
+  gather_facts: yes
+  ignore_errors: true
+  vars:
+    user_name: ojokebs
+    group_name: devops
+  vars_files:
+    - variables.yml
+  tasks:
+    - name: Check the time
+      command: dateksdjpo
+#     when: ansible_distribution == "oj" or ansible_processor_nproc == 2
+    - name: create user oj
+      user:
+         name: "{{user_name}}"
+         comment: oj Admin
+    - name: create group
+      group:
+         name: "{{group_name}}"
+         state: present
+      become: true
+    - name: Install package
+      package:
+        name: "{{pkg_name}}"
+        state: present 
