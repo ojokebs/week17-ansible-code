@@ -1,0 +1,598 @@
+2024-02-03 19:20:45,811 p=29358 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/ansible-dev/inventory.yml with auto plugin:
+Attempting to decrypt but no vault secrets found
+
+2024-02-03 19:20:45,812 p=29358 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/ansible-dev/inventory.yml with yaml plugin:
+Attempting to decrypt but no vault secrets found
+
+2024-02-03 19:20:45,812 p=29358 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/ansible-dev/inventory.yml with ini plugin:
+Attempting to decrypt but no vault secrets found
+
+2024-02-03 19:20:45,812 p=29358 u=ec2-user n=ansible | [WARNING]: Unable to parse /home/ec2-user/ansible-dev/inventory.yml as an inventory source
+
+2024-02-03 19:20:45,812 p=29358 u=ec2-user n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-02-03 19:23:28,430 p=29409 u=ec2-user n=ansible | Decryption successful
+2024-02-03 19:23:57,455 p=29453 u=ec2-user n=ansible | 172.31.33.139 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.31.33.139 port 22: No route to host",
+    "unreachable": true
+}
+2024-02-03 19:24:04,392 p=29453 u=ec2-user n=ansible | 172.31.29.158 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.31.29.158 port 22: Connection timed out",
+    "unreachable": true
+}
+2024-02-03 19:26:38,090 p=29577 u=ec2-user n=ansible | 54.147.16.182 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2024-02-03 19:26:40,392 p=29577 u=ec2-user n=ansible | 54.172.208.244 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.7"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2024-02-03 19:27:34,000 p=29701 u=ec2-user n=ansible | Encryption successful
+2024-02-03 19:50:33,592 p=30919 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/ansible-dev/inventory.yml with auto
+plugin: Attempting to decrypt but no vault secrets found
+
+2024-02-03 19:50:33,593 p=30919 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/ansible-dev/inventory.yml with yaml
+plugin: Attempting to decrypt but no vault secrets found
+
+2024-02-03 19:50:33,593 p=30919 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/ansible-dev/inventory.yml with ini
+plugin: Attempting to decrypt but no vault secrets found
+
+2024-02-03 19:50:33,593 p=30919 u=ec2-user n=ansible | [WARNING]: Unable to parse /home/ec2-user/ansible-dev/inventory.yml as an
+inventory source
+
+2024-02-03 19:50:33,594 p=30919 u=ec2-user n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-02-03 19:50:33,696 p=30919 u=ec2-user n=ansible | ERROR! Empty playbook, nothing to do
+2024-02-03 19:52:19,257 p=31090 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/ansible-dev/inventory.yml with auto
+plugin: Attempting to decrypt but no vault secrets found
+
+2024-02-03 19:52:19,258 p=31090 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/ansible-dev/inventory.yml with yaml
+plugin: Attempting to decrypt but no vault secrets found
+
+2024-02-03 19:52:19,258 p=31090 u=ec2-user n=ansible | [WARNING]:  * Failed to parse /home/ec2-user/ansible-dev/inventory.yml with ini
+plugin: Attempting to decrypt but no vault secrets found
+
+2024-02-03 19:52:19,258 p=31090 u=ec2-user n=ansible | [WARNING]: Unable to parse /home/ec2-user/ansible-dev/inventory.yml as an
+inventory source
+
+2024-02-03 19:52:19,258 p=31090 u=ec2-user n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-02-03 19:52:19,411 p=31090 u=ec2-user n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: databaseservers
+
+2024-02-03 19:52:19,412 p=31090 u=ec2-user n=ansible | playbook: lamp.yml
+2024-02-03 19:53:05,388 p=31134 u=ec2-user n=ansible | Decryption successful
+2024-02-03 19:53:14,321 p=31181 u=ec2-user n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: databaseservers
+
+2024-02-03 19:53:14,321 p=31181 u=ec2-user n=ansible | playbook: lamp.yml
+2024-02-03 19:55:18,757 p=31250 u=ec2-user n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: databaseservers
+
+2024-02-03 19:55:18,758 p=31250 u=ec2-user n=ansible | playbook: lamp.yml
+2024-02-03 19:56:42,993 p=31300 u=ec2-user n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: databaseservers
+
+2024-02-03 19:56:42,994 p=31300 u=ec2-user n=ansible | playbook: lamp.yml
+2024-02-03 20:05:05,268 p=31576 u=ec2-user n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: databaseservers
+
+2024-02-03 20:05:05,269 p=31576 u=ec2-user n=ansible | playbook: lamp.yml
+2024-02-03 20:18:04,278 p=31643 u=ec2-user n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: databaseservers
+
+2024-02-03 20:18:04,279 p=31643 u=ec2-user n=ansible | playbook: lamp.yml
+2024-02-06 15:00:59,515 p=4507 u=ec2-user n=ansible | 172.31.17.22 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Permission denied (publickey).",
+    "unreachable": true
+}
+2024-02-06 15:00:59,714 p=4507 u=ec2-user n=ansible | 172.31.47.57 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).",
+    "unreachable": true
+}
+2024-02-06 15:04:58,916 p=4590 u=ec2-user n=ansible | 172.31.17.22 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2024-02-06 15:05:02,122 p=4590 u=ec2-user n=ansible | 172.31.47.57 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.7"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2024-02-06 15:06:51,632 p=4740 u=ec2-user n=ansible | 172.31.47.57 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.7"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2024-02-06 15:07:04,109 p=4816 u=ec2-user n=ansible | 172.31.17.22 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2024-02-06 15:09:30,976 p=5033 u=ec2-user n=ansible | 172.31.47.57 | CHANGED | rc=0 >>
+Tue Feb  6 15:09:30 UTC 2024
+
+2024-02-06 15:09:31,235 p=5033 u=ec2-user n=ansible | 172.31.17.22 | CHANGED | rc=0 >>
+Tue Feb  6 15:09:31 UTC 2024
+
+2024-02-06 15:10:03,352 p=5112 u=ec2-user n=ansible | 172.31.17.22 | CHANGED | rc=0 >>
+ 15:10:03 up 59 min,  1 user,  load average: 0.00, 0.00, 0.00
+
+2024-02-06 15:10:03,356 p=5112 u=ec2-user n=ansible | 172.31.47.57 | CHANGED | rc=0 >>
+ 15:10:03 up 58 min,  1 user,  load average: 0.00, 0.00, 0.00
+
+2024-02-06 15:10:21,021 p=5207 u=ec2-user n=ansible | 172.31.47.57 | CHANGED | rc=0 >>
+ 15:10:20 up 59 min,  1 user,  load average: 0.00, 0.00, 0.00
+
+2024-02-06 15:10:33,442 p=5246 u=ec2-user n=ansible | 172.31.17.22 | CHANGED | rc=0 >>
+ 15:10:33 up 59 min,  1 user,  load average: 0.00, 0.00, 0.00
+
+2024-02-06 15:20:10,597 p=5551 u=ec2-user n=ansible | 172.31.47.57 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.7"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2024-02-06 15:20:10,875 p=5551 u=ec2-user n=ansible | 172.31.17.22 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2024-02-06 15:23:51,462 p=5693 u=ec2-user n=ansible | 172.31.47.57 | CHANGED | rc=0 >>
+ 15:23:51 up  1:12,  1 user,  load average: 0.00, 0.00, 0.00
+
+2024-02-06 15:23:51,732 p=5693 u=ec2-user n=ansible | 172.31.17.22 | CHANGED | rc=0 >>
+ 15:23:51 up  1:12,  1 user,  load average: 0.18, 0.05, 0.01
+
+2024-02-06 15:27:57,317 p=5874 u=ec2-user n=ansible | 172.31.47.57 | CHANGED | rc=0 >>
+ 15:27:57 up  1:16,  1 user,  load average: 0.00, 0.00, 0.00
+
+2024-02-06 15:27:57,579 p=5874 u=ec2-user n=ansible | 172.31.17.22 | CHANGED | rc=0 >>
+ 15:27:57 up  1:16,  1 user,  load average: 0.00, 0.01, 0.00
+
+2024-02-06 15:28:51,534 p=5963 u=ec2-user n=ansible | 172.31.17.22 | CHANGED | rc=0 >>
+/home/ubuntu
+
+2024-02-06 15:28:51,605 p=5963 u=ec2-user n=ansible | 172.31.47.57 | CHANGED | rc=0 >>
+/home/ec2-user
+
+2024-02-06 15:29:18,255 p=6057 u=ec2-user n=ansible | 172.31.47.57 | CHANGED | rc=0 >>
+/home/ec2-user
+
+2024-02-06 15:29:18,267 p=6057 u=ec2-user n=ansible | 172.31.17.22 | CHANGED | rc=0 >>
+/home/ubuntu
+
+2024-02-06 15:31:00,835 p=6233 u=ec2-user n=ansible | 172.31.47.57 | FAILED | rc=1 >>
+cat: /etc/paaswd: No such file or directorynon-zero return code
+
+2024-02-06 15:31:01,153 p=6233 u=ec2-user n=ansible | 172.31.17.22 | FAILED | rc=1 >>
+cat: /etc/paaswd: No such file or directorynon-zero return code
+
+2024-02-06 15:33:06,301 p=6388 u=ec2-user n=ansible | 172.31.47.57 | CHANGED | rc=0 >>
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+libstoragemgmt:x:999:997:daemon account for libstoragemgmt:/var/run/lsm:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rngd:x:998:996:Random Number Generator Daemon:/var/lib/rngd:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+ec2-instance-connect:x:997:995::/home/ec2-instance-connect:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+chrony:x:996:994::/var/lib/chrony:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+ec2-user:x:1000:1000:EC2 Default User:/home/ec2-user:/bin/bash
+
+2024-02-06 15:33:06,521 p=6388 u=ec2-user n=ansible | 172.31.17.22 | CHANGED | rc=0 >>
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd/netif:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd/resolve:/usr/sbin/nologin
+syslog:x:102:106::/home/syslog:/usr/sbin/nologin
+messagebus:x:103:107::/nonexistent:/usr/sbin/nologin
+_apt:x:104:65534::/nonexistent:/usr/sbin/nologin
+lxd:x:105:65534::/var/lib/lxd/:/bin/false
+uuidd:x:106:110::/run/uuidd:/usr/sbin/nologin
+dnsmasq:x:107:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+landscape:x:108:112::/var/lib/landscape:/usr/sbin/nologin
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+pollinate:x:110:1::/var/cache/pollinate:/bin/false
+ubuntu:x:1000:1000:Ubuntu:/home/ubuntu:/bin/bash
+
+2024-02-06 15:33:44,793 p=6500 u=ec2-user n=ansible | [WARNING]: Unable to parse /home/ec2-user/ansible-dev/db as an inventory source
+
+2024-02-06 15:33:44,794 p=6500 u=ec2-user n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-02-06 15:34:43,941 p=6602 u=ec2-user n=ansible | 172.31.47.57 | CHANGED | rc=0 >>
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+libstoragemgmt:x:999:997:daemon account for libstoragemgmt:/var/run/lsm:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rngd:x:998:996:Random Number Generator Daemon:/var/lib/rngd:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+ec2-instance-connect:x:997:995::/home/ec2-instance-connect:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+chrony:x:996:994::/var/lib/chrony:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+ec2-user:x:1000:1000:EC2 Default User:/home/ec2-user:/bin/bash
+
+2024-02-06 15:35:37,214 p=6666 u=ec2-user n=ansible | 172.31.47.57 | CHANGED | rc=0 >>
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+libstoragemgmt:x:999:997:daemon account for libstoragemgmt:/var/run/lsm:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rngd:x:998:996:Random Number Generator Daemon:/var/lib/rngd:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+ec2-instance-connect:x:997:995::/home/ec2-instance-connect:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+chrony:x:996:994::/var/lib/chrony:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+ec2-user:x:1000:1000:EC2 Default User:/home/ec2-user:/bin/bash
+
+2024-02-06 15:38:17,427 p=6819 u=ec2-user n=ansible | 172.31.47.57 | CHANGED | rc=0 >>
+root:x:0:0:root:/root:/bin/bash
+operator:x:11:0:operator:/root:/sbin/nologin
+
+2024-02-06 15:52:22,134 p=7115 u=ec2-user n=ansible | 172.31.47.57 | CHANGED => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.7"
+    },
+    "changed": true,
+    "gid": 1000,
+    "group": "ec2-user",
+    "mode": "0775",
+    "owner": "ec2-user",
+    "path": "/tmp/ansible.text",
+    "size": 6,
+    "state": "directory",
+    "uid": 1000
+}
+2024-02-06 15:52:22,335 p=7115 u=ec2-user n=ansible | 172.31.17.22 | CHANGED => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": true,
+    "gid": 1000,
+    "group": "ubuntu",
+    "mode": "0775",
+    "owner": "ubuntu",
+    "path": "/tmp/ansible.text",
+    "size": 4096,
+    "state": "directory",
+    "uid": 1000
+}
+2024-02-06 16:11:46,765 p=8322 u=ec2-user n=ansible | 172.31.47.57 | CHANGED => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.7"
+    },
+    "changed": true,
+    "gid": 1001,
+    "name": "cloud",
+    "state": "present",
+    "system": false
+}
+2024-02-06 16:11:46,840 p=8322 u=ec2-user n=ansible | 172.31.17.22 | CHANGED => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": true,
+    "gid": 1001,
+    "name": "cloud",
+    "state": "present",
+    "system": false
+}
+2024-02-06 16:14:04,219 p=8563 u=ec2-user n=ansible | 172.31.47.57 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.7"
+    },
+    "changed": false,
+    "gid": 1001,
+    "name": "cloud",
+    "state": "present",
+    "system": false
+}
+2024-02-06 16:14:04,439 p=8563 u=ec2-user n=ansible | 172.31.17.22 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "gid": 1001,
+    "name": "cloud",
+    "state": "present",
+    "system": false
+}
+2024-02-06 16:21:47,084 p=8676 u=ec2-user n=ansible | 172.31.47.57 | CHANGED => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.7"
+    },
+    "changed": true,
+    "name": "cloud",
+    "state": "absent"
+}
+2024-02-06 16:21:47,335 p=8676 u=ec2-user n=ansible | 172.31.17.22 | CHANGED => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": true,
+    "name": "cloud",
+    "state": "absent"
+}
+2024-02-06 16:21:53,432 p=8733 u=ec2-user n=ansible | 172.31.17.22 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "name": "cloud",
+    "state": "absent"
+}
+2024-02-06 16:21:53,455 p=8733 u=ec2-user n=ansible | 172.31.47.57 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.7"
+    },
+    "changed": false,
+    "name": "cloud",
+    "state": "absent"
+}
+2024-02-06 16:37:05,031 p=9315 u=ec2-user n=ansible | playbook: play1.yml
+2024-02-06 16:37:39,479 p=9366 u=ec2-user n=ansible | PLAY [all] *********************************************************************
+2024-02-06 16:37:39,491 p=9366 u=ec2-user n=ansible | TASK [Gathering Facts] *********************************************************
+2024-02-06 16:37:41,545 p=9366 u=ec2-user n=ansible | ok: [172.31.17.22]
+2024-02-06 16:37:43,170 p=9366 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-06 16:37:43,184 p=9366 u=ec2-user n=ansible | TASK [Check the time] **********************************************************
+2024-02-06 16:37:43,667 p=9366 u=ec2-user n=ansible | fatal: [172.31.47.57]: FAILED! => {"changed": false, "cmd": "dateksdjpo", "msg": "[Errno 2] No such file or directory: b'dateksdjpo': b'dateksdjpo'", "rc": 2, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2024-02-06 16:37:43,668 p=9366 u=ec2-user n=ansible | ...ignoring
+2024-02-06 16:37:43,672 p=9366 u=ec2-user n=ansible | fatal: [172.31.17.22]: FAILED! => {"changed": false, "cmd": "dateksdjpo", "msg": "[Errno 2] No such file or directory: b'dateksdjpo': b'dateksdjpo'", "rc": 2, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2024-02-06 16:37:43,672 p=9366 u=ec2-user n=ansible | ...ignoring
+2024-02-06 16:37:43,681 p=9366 u=ec2-user n=ansible | TASK [create user oj] **********************************************************
+2024-02-06 16:37:44,294 p=9366 u=ec2-user n=ansible | fatal: [172.31.17.22]: FAILED! => {"changed": false, "msg": "useradd: Permission denied.\nuseradd: cannot lock /etc/passwd; try again later.\n", "name": "ojokebs", "rc": 1}
+2024-02-06 16:37:44,295 p=9366 u=ec2-user n=ansible | ...ignoring
+2024-02-06 16:37:44,362 p=9366 u=ec2-user n=ansible | fatal: [172.31.47.57]: FAILED! => {"changed": false, "cmd": "/sbin/useradd -c 'oj Admin' -m ojokebs", "msg": "[Errno 13] Permission denied: b'/sbin/useradd'", "rc": 13, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2024-02-06 16:37:44,362 p=9366 u=ec2-user n=ansible | ...ignoring
+2024-02-06 16:37:44,370 p=9366 u=ec2-user n=ansible | TASK [create group] ************************************************************
+2024-02-06 16:37:44,935 p=9366 u=ec2-user n=ansible | changed: [172.31.17.22]
+2024-02-06 16:37:45,038 p=9366 u=ec2-user n=ansible | changed: [172.31.47.57]
+2024-02-06 16:37:45,047 p=9366 u=ec2-user n=ansible | TASK [Install package] *********************************************************
+2024-02-06 16:37:46,844 p=9366 u=ec2-user n=ansible | fatal: [172.31.17.22]: FAILED! => {"changed": false, "msg": "'/usr/bin/apt-mark manual curl' failed: E: Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: Permission denied)\nE: Failed to write temporary StateFile /var/lib/apt/extended_states\n", "rc": 100, "stderr": "E: Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: Permission denied)\nE: Failed to write temporary StateFile /var/lib/apt/extended_states\n", "stderr_lines": ["E: Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: Permission denied)", "E: Failed to write temporary StateFile /var/lib/apt/extended_states"], "stdout": "curl set to manually installed.\n", "stdout_lines": ["curl set to manually installed."]}
+2024-02-06 16:37:46,844 p=9366 u=ec2-user n=ansible | ...ignoring
+2024-02-06 16:37:47,519 p=9366 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-06 16:37:47,534 p=9366 u=ec2-user n=ansible | PLAY RECAP *********************************************************************
+2024-02-06 16:37:47,535 p=9366 u=ec2-user n=ansible | 172.31.17.22               : ok=5    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=3   
+2024-02-06 16:37:47,535 p=9366 u=ec2-user n=ansible | 172.31.47.57               : ok=5    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=2   
+2024-02-06 16:38:56,176 p=9543 u=ec2-user n=ansible | PLAY [all] *********************************************************************
+2024-02-06 16:38:56,185 p=9543 u=ec2-user n=ansible | TASK [Gathering Facts] *********************************************************
+2024-02-06 16:38:57,442 p=9543 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-06 16:38:58,707 p=9543 u=ec2-user n=ansible | ok: [172.31.17.22]
+2024-02-06 16:38:58,721 p=9543 u=ec2-user n=ansible | TASK [Check the time] **********************************************************
+2024-02-06 16:38:59,265 p=9543 u=ec2-user n=ansible | changed: [172.31.17.22]
+2024-02-06 16:38:59,285 p=9543 u=ec2-user n=ansible | changed: [172.31.47.57]
+2024-02-06 16:38:59,310 p=9543 u=ec2-user n=ansible | TASK [create user oj] **********************************************************
+2024-02-06 16:38:59,903 p=9543 u=ec2-user n=ansible | fatal: [172.31.17.22]: FAILED! => {"changed": false, "msg": "useradd: Permission denied.\nuseradd: cannot lock /etc/passwd; try again later.\n", "name": "ojokebs", "rc": 1}
+2024-02-06 16:38:59,903 p=9543 u=ec2-user n=ansible | ...ignoring
+2024-02-06 16:38:59,923 p=9543 u=ec2-user n=ansible | fatal: [172.31.47.57]: FAILED! => {"changed": false, "cmd": "/sbin/useradd -c 'oj Admin' -m ojokebs", "msg": "[Errno 13] Permission denied: b'/sbin/useradd'", "rc": 13, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2024-02-06 16:38:59,923 p=9543 u=ec2-user n=ansible | ...ignoring
+2024-02-06 16:38:59,930 p=9543 u=ec2-user n=ansible | TASK [create group] ************************************************************
+2024-02-06 16:39:00,484 p=9543 u=ec2-user n=ansible | ok: [172.31.17.22]
+2024-02-06 16:39:00,496 p=9543 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-06 16:39:00,503 p=9543 u=ec2-user n=ansible | TASK [Install package] *********************************************************
+2024-02-06 16:39:02,115 p=9543 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-06 16:39:02,352 p=9543 u=ec2-user n=ansible | fatal: [172.31.17.22]: FAILED! => {"changed": false, "msg": "'/usr/bin/apt-mark manual curl' failed: E: Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: Permission denied)\nE: Failed to write temporary StateFile /var/lib/apt/extended_states\n", "rc": 100, "stderr": "E: Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: Permission denied)\nE: Failed to write temporary StateFile /var/lib/apt/extended_states\n", "stderr_lines": ["E: Could not create temporary file for /var/lib/apt/extended_states - mkstemp (13: Permission denied)", "E: Failed to write temporary StateFile /var/lib/apt/extended_states"], "stdout": "curl set to manually installed.\n", "stdout_lines": ["curl set to manually installed."]}
+2024-02-06 16:39:02,352 p=9543 u=ec2-user n=ansible | ...ignoring
+2024-02-06 16:39:02,386 p=9543 u=ec2-user n=ansible | PLAY RECAP *********************************************************************
+2024-02-06 16:39:02,386 p=9543 u=ec2-user n=ansible | 172.31.17.22               : ok=5    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=2   
+2024-02-06 16:39:02,386 p=9543 u=ec2-user n=ansible | 172.31.47.57               : ok=5    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=1   
+2024-02-06 16:54:14,932 p=10029 u=ec2-user n=ansible | PLAY [all] *********************************************************************
+2024-02-06 16:54:14,942 p=10029 u=ec2-user n=ansible | TASK [Gathering Facts] *********************************************************
+2024-02-06 16:54:16,279 p=10029 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-06 16:54:16,527 p=10029 u=ec2-user n=ansible | ok: [172.31.17.22]
+2024-02-06 16:54:16,539 p=10029 u=ec2-user n=ansible | TASK [Check the time] **********************************************************
+2024-02-06 16:54:17,049 p=10029 u=ec2-user n=ansible | fatal: [172.31.17.22]: FAILED! => {"changed": false, "cmd": "datekfni", "msg": "[Errno 2] No such file or directory: b'datekfni': b'datekfni'", "rc": 2, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2024-02-06 16:54:17,050 p=10029 u=ec2-user n=ansible | ...ignoring
+2024-02-06 16:54:17,074 p=10029 u=ec2-user n=ansible | fatal: [172.31.47.57]: FAILED! => {"changed": false, "cmd": "datekfni", "msg": "[Errno 2] No such file or directory: b'datekfni': b'datekfni'", "rc": 2, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2024-02-06 16:54:17,074 p=10029 u=ec2-user n=ansible | ...ignoring
+2024-02-06 16:54:17,084 p=10029 u=ec2-user n=ansible | TASK [create user oj] **********************************************************
+2024-02-06 16:54:17,695 p=10029 u=ec2-user n=ansible | fatal: [172.31.47.57]: FAILED! => {"changed": false, "cmd": "/sbin/useradd -c 'oj Admin' -m ojokebs", "msg": "[Errno 13] Permission denied: b'/sbin/useradd'", "rc": 13, "stderr": "", "stderr_lines": [], "stdout": "", "stdout_lines": []}
+2024-02-06 16:54:17,696 p=10029 u=ec2-user n=ansible | ...ignoring
+2024-02-06 16:54:17,699 p=10029 u=ec2-user n=ansible | fatal: [172.31.17.22]: FAILED! => {"changed": false, "msg": "useradd: Permission denied.\nuseradd: cannot lock /etc/passwd; try again later.\n", "name": "ojokebs", "rc": 1}
+2024-02-06 16:54:17,700 p=10029 u=ec2-user n=ansible | ...ignoring
+2024-02-06 16:54:17,708 p=10029 u=ec2-user n=ansible | TASK [create group] ************************************************************
+2024-02-06 16:54:18,264 p=10029 u=ec2-user n=ansible | ok: [172.31.17.22]
+2024-02-06 16:54:18,291 p=10029 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-06 16:54:18,298 p=10029 u=ec2-user n=ansible | TASK [Install package] *********************************************************
+2024-02-06 16:54:20,067 p=10029 u=ec2-user n=ansible | fatal: [172.31.17.22]: FAILED! => {"cache_update_time": 1707228676, "cache_updated": false, "changed": false, "msg": "'/usr/bin/apt-get -y -o \"Dpkg::Options::=--force-confdef\" -o \"Dpkg::Options::=--force-confold\"       install 'finger=0.17-15.1'' failed: E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)\nE: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?\n", "rc": 100, "stderr": "E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)\nE: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?\n", "stderr_lines": ["E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)", "E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?"], "stdout": "", "stdout_lines": []}
+2024-02-06 16:54:20,067 p=10029 u=ec2-user n=ansible | ...ignoring
+2024-02-06 16:54:41,294 p=10029 u=ec2-user n=ansible | fatal: [172.31.47.57]: FAILED! => {"changed": false, "changes": {"installed": ["finger"]}, "msg": "You need to be root to perform this command.\n", "rc": 1, "results": ["Loaded plugins: extras_suggestions, langpacks, priorities, update-motd\n"]}
+2024-02-06 16:54:41,295 p=10029 u=ec2-user n=ansible | ...ignoring
+2024-02-06 16:54:41,312 p=10029 u=ec2-user n=ansible | PLAY RECAP *********************************************************************
+2024-02-06 16:54:41,313 p=10029 u=ec2-user n=ansible | 172.31.17.22               : ok=5    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=3   
+2024-02-06 16:54:41,313 p=10029 u=ec2-user n=ansible | 172.31.47.57               : ok=5    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=3   
+2024-02-06 16:59:37,470 p=10376 u=ec2-user n=ansible | playbook: apache.yml
+2024-02-06 17:00:03,143 p=10435 u=ec2-user n=ansible | ERROR! the playbook: code2.yml could not be found
+2024-02-06 17:00:21,756 p=10496 u=ec2-user n=ansible | playbook: code2.yaml
+2024-02-06 17:00:44,719 p=10563 u=ec2-user n=ansible | playbook: code3.yml
+2024-02-06 17:02:05,878 p=10691 u=ec2-user n=ansible | ERROR! the playbook: code2.yml could not be found
+2024-02-06 17:02:21,981 p=10735 u=ec2-user n=ansible | PLAY [db] **********************************************************************
+2024-02-06 17:02:21,990 p=10735 u=ec2-user n=ansible | TASK [Gathering Facts] *********************************************************
+2024-02-06 17:02:23,510 p=10735 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-06 17:02:23,532 p=10735 u=ec2-user n=ansible | TASK [Check number of cpu] *****************************************************
+2024-02-06 17:02:24,062 p=10735 u=ec2-user n=ansible | skipping: [172.31.47.57]
+2024-02-06 17:02:24,076 p=10735 u=ec2-user n=ansible | TASK [Display the output] ******************************************************
+2024-02-06 17:02:24,091 p=10735 u=ec2-user n=ansible | ok: [172.31.47.57] => {
+    "nproc_output.stdout": ""
+}
+2024-02-06 17:02:24,097 p=10735 u=ec2-user n=ansible | TASK [Create file] *************************************************************
+2024-02-06 17:02:24,602 p=10735 u=ec2-user n=ansible | changed: [172.31.47.57]
+2024-02-06 17:02:24,609 p=10735 u=ec2-user n=ansible | TASK [display output] **********************************************************
+2024-02-06 17:02:24,626 p=10735 u=ec2-user n=ansible | ok: [172.31.47.57] => {
+    "color": "red"
+}
+2024-02-06 17:02:24,639 p=10735 u=ec2-user n=ansible | PLAY RECAP *********************************************************************
+2024-02-06 17:02:24,639 p=10735 u=ec2-user n=ansible | 172.31.47.57               : ok=4    changed=1    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2024-02-06 17:02:44,765 p=10861 u=ec2-user n=ansible | PLAY [db] **********************************************************************
+2024-02-06 17:02:44,778 p=10861 u=ec2-user n=ansible | TASK [Install packages] ********************************************************
+2024-02-06 17:02:46,928 p=10861 u=ec2-user n=ansible | ok: [172.31.47.57] => (item=curl)
+2024-02-06 17:02:48,639 p=10861 u=ec2-user n=ansible | changed: [172.31.47.57] => (item=finger)
+2024-02-06 17:02:50,163 p=10861 u=ec2-user n=ansible | ok: [172.31.47.57] => (item=wget)
+2024-02-06 17:02:52,471 p=10861 u=ec2-user n=ansible | changed: [172.31.47.57] => (item=httpd)
+2024-02-06 17:02:54,436 p=10861 u=ec2-user n=ansible | changed: [172.31.47.57] => (item=ntp)
+2024-02-06 17:02:54,446 p=10861 u=ec2-user n=ansible | PLAY RECAP *********************************************************************
+2024-02-06 17:02:54,446 p=10861 u=ec2-user n=ansible | 172.31.47.57               : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-02-06 17:03:17,591 p=11026 u=ec2-user n=ansible | PLAY [db] **********************************************************************
+2024-02-06 17:03:17,604 p=11026 u=ec2-user n=ansible | TASK [Update the system] *******************************************************
+2024-02-06 17:03:21,160 p=11026 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-06 17:03:21,164 p=11026 u=ec2-user n=ansible | TASK [Install httpd] ***********************************************************
+2024-02-06 17:03:23,211 p=11026 u=ec2-user n=ansible | changed: [172.31.47.57]
+2024-02-06 17:03:23,215 p=11026 u=ec2-user n=ansible | TASK [Start the httpd Daemon] **************************************************
+2024-02-06 17:03:24,065 p=11026 u=ec2-user n=ansible | fatal: [172.31.47.57]: FAILED! => {"changed": false, "msg": "Could not find the requested service httpd: host"}
+2024-02-06 17:03:24,067 p=11026 u=ec2-user n=ansible | PLAY RECAP *********************************************************************
+2024-02-06 17:03:24,067 p=11026 u=ec2-user n=ansible | 172.31.47.57               : ok=2    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-02-07 00:38:48,099 p=17094 u=ec2-user n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: databaseservers
+
+2024-02-07 00:38:48,100 p=17094 u=ec2-user n=ansible | playbook: lamp.yml
+2024-02-07 00:45:03,128 p=17211 u=ec2-user n=ansible | playbook: lamp.yml
+2024-02-07 00:47:04,083 p=17267 u=ec2-user n=ansible | PLAY [Setting up LAMP Website] ****************************************************************
+2024-02-07 00:47:04,094 p=17267 u=ec2-user n=ansible | TASK [Gathering Facts] ************************************************************************
+2024-02-07 00:47:06,272 p=17267 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-07 00:47:06,287 p=17267 u=ec2-user n=ansible | TASK [Update package repositories for Debian/Ubuntu] ******************************************
+2024-02-07 00:47:06,304 p=17267 u=ec2-user n=ansible | skipping: [172.31.47.57]
+2024-02-07 00:47:06,320 p=17267 u=ec2-user n=ansible | TASK [Update package repositories for Amazon Linux] *******************************************
+2024-02-07 00:47:09,074 p=17267 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-07 00:47:09,097 p=17267 u=ec2-user n=ansible | TASK [Determine package name for MariaDB on Debian/Ubuntu] ************************************
+2024-02-07 00:47:09,119 p=17267 u=ec2-user n=ansible | skipping: [172.31.47.57]
+2024-02-07 00:47:09,141 p=17267 u=ec2-user n=ansible | TASK [Install required packages for Debian/Ubuntu] ********************************************
+2024-02-07 00:47:09,168 p=17267 u=ec2-user n=ansible | skipping: [172.31.47.57]
+2024-02-07 00:47:09,176 p=17267 u=ec2-user n=ansible | TASK [Install required packages for Amazon Linux] *********************************************
+2024-02-07 00:47:36,014 p=17267 u=ec2-user n=ansible | changed: [172.31.47.57]
+2024-02-07 00:47:36,021 p=17267 u=ec2-user n=ansible | TASK [Ensure firewalld is installed and enabled (for Amazon Linux)] ***************************
+2024-02-07 00:47:45,122 p=17267 u=ec2-user n=ansible | changed: [172.31.47.57]
+2024-02-07 00:47:45,130 p=17267 u=ec2-user n=ansible | TASK [Start and enable firewalld (for Amazon Linux)] ******************************************
+2024-02-07 00:47:46,603 p=17267 u=ec2-user n=ansible | changed: [172.31.47.57]
+2024-02-07 00:47:46,614 p=17267 u=ec2-user n=ansible | TASK [Allow HTTP traffic in firewalld (for Amazon Linux)] *************************************
+2024-02-07 00:47:51,792 p=17267 u=ec2-user n=ansible | changed: [172.31.47.57]
+2024-02-07 00:47:51,824 p=17267 u=ec2-user n=ansible | TASK [Copy mime.types file (for Amazon Linux)] ************************************************
+2024-02-07 00:47:52,577 p=17267 u=ec2-user n=ansible | changed: [172.31.47.57]
+2024-02-07 00:47:52,584 p=17267 u=ec2-user n=ansible | TASK [Start and enable Apache for Debian/Ubuntu] **********************************************
+2024-02-07 00:47:52,600 p=17267 u=ec2-user n=ansible | skipping: [172.31.47.57]
+2024-02-07 00:47:52,608 p=17267 u=ec2-user n=ansible | TASK [Start and enable Apache for Amazon Linux] ***********************************************
+2024-02-07 00:47:53,660 p=17267 u=ec2-user n=ansible | changed: [172.31.47.57]
+2024-02-07 00:47:53,667 p=17267 u=ec2-user n=ansible | TASK [Start and enable MariaDB for Amazon Linux] **********************************************
+2024-02-07 00:48:00,121 p=17267 u=ec2-user n=ansible | changed: [172.31.47.57]
+2024-02-07 00:48:00,130 p=17267 u=ec2-user n=ansible | TASK [Download PHP page] **********************************************************************
+2024-02-07 00:48:00,935 p=17267 u=ec2-user n=ansible | changed: [172.31.47.57]
+2024-02-07 00:48:00,967 p=17267 u=ec2-user n=ansible | PLAY RECAP ************************************************************************************
+2024-02-07 00:48:00,967 p=17267 u=ec2-user n=ansible | 172.31.47.57               : ok=10   changed=8    unreachable=0    failed=0    skipped=4    rescued=0    ignored=0   
+2024-02-07 00:59:38,358 p=17720 u=ec2-user n=ansible | PLAY [Setting up LAMP Website] ****************************************************************
+2024-02-07 00:59:38,369 p=17720 u=ec2-user n=ansible | TASK [Gathering Facts] ************************************************************************
+2024-02-07 00:59:39,340 p=17720 u=ec2-user n=ansible | fatal: [172.31.17.22]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"failed": true, "module_stderr": "Shared connection to 172.31.17.22 closed.\r\n", "module_stdout": "/bin/sh: 1: /usr/bin/python: not found\r\n", "msg": "The module failed to execute correctly, you probably need to set the interpreter.\nSee stdout/stderr for the exact error", "rc": 127}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2024-02-07 00:59:39,343 p=17720 u=ec2-user n=ansible | PLAY RECAP ************************************************************************************
+2024-02-07 00:59:39,343 p=17720 u=ec2-user n=ansible | 172.31.17.22               : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-02-07 01:00:08,785 p=17790 u=ec2-user n=ansible | PLAY [Setting up LAMP Website] ****************************************************************
+2024-02-07 01:00:08,795 p=17790 u=ec2-user n=ansible | TASK [Gathering Facts] ************************************************************************
+2024-02-07 01:00:11,231 p=17790 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-07 01:00:11,243 p=17790 u=ec2-user n=ansible | TASK [Update package repositories for Debian/Ubuntu] ******************************************
+2024-02-07 01:00:11,263 p=17790 u=ec2-user n=ansible | skipping: [172.31.47.57]
+2024-02-07 01:00:11,272 p=17790 u=ec2-user n=ansible | TASK [Update package repositories for Amazon Linux] *******************************************
+2024-02-07 01:00:14,027 p=17790 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-07 01:00:14,035 p=17790 u=ec2-user n=ansible | TASK [Determine package name for MariaDB on Debian/Ubuntu] ************************************
+2024-02-07 01:00:14,049 p=17790 u=ec2-user n=ansible | skipping: [172.31.47.57]
+2024-02-07 01:00:14,056 p=17790 u=ec2-user n=ansible | TASK [Install required packages for Debian/Ubuntu] ********************************************
+2024-02-07 01:00:14,069 p=17790 u=ec2-user n=ansible | skipping: [172.31.47.57]
+2024-02-07 01:00:14,076 p=17790 u=ec2-user n=ansible | TASK [Install required packages for Amazon Linux] *********************************************
+2024-02-07 01:00:15,167 p=17790 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-07 01:00:15,177 p=17790 u=ec2-user n=ansible | TASK [Ensure firewalld is installed and enabled (for Amazon Linux)] ***************************
+2024-02-07 01:00:16,194 p=17790 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-07 01:00:16,201 p=17790 u=ec2-user n=ansible | TASK [Start and enable firewalld (for Amazon Linux)] ******************************************
+2024-02-07 01:00:17,019 p=17790 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-07 01:00:17,026 p=17790 u=ec2-user n=ansible | TASK [Allow HTTP traffic in firewalld (for Amazon Linux)] *************************************
+2024-02-07 01:00:17,818 p=17790 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-07 01:00:17,827 p=17790 u=ec2-user n=ansible | TASK [Copy mime.types file (for Amazon Linux)] ************************************************
+2024-02-07 01:00:18,348 p=17790 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-07 01:00:18,356 p=17790 u=ec2-user n=ansible | TASK [Start and enable Apache for Debian/Ubuntu] **********************************************
+2024-02-07 01:00:18,372 p=17790 u=ec2-user n=ansible | skipping: [172.31.47.57]
+2024-02-07 01:00:18,380 p=17790 u=ec2-user n=ansible | TASK [Start and enable Apache for Amazon Linux] ***********************************************
+2024-02-07 01:00:18,902 p=17790 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-07 01:00:18,910 p=17790 u=ec2-user n=ansible | TASK [Start and enable MariaDB for Amazon Linux] **********************************************
+2024-02-07 01:00:19,399 p=17790 u=ec2-user n=ansible | ok: [172.31.47.57]
+2024-02-07 01:00:19,406 p=17790 u=ec2-user n=ansible | TASK [Download PHP page] **********************************************************************
+2024-02-07 01:00:20,208 p=17790 u=ec2-user n=ansible | changed: [172.31.47.57]
+2024-02-07 01:00:20,220 p=17790 u=ec2-user n=ansible | PLAY RECAP ************************************************************************************
+2024-02-07 01:00:20,220 p=17790 u=ec2-user n=ansible | 172.31.47.57               : ok=10   changed=1    unreachable=0    failed=0    skipped=4    rescued=0    ignored=0   
+2024-02-07 01:03:11,157 p=18144 u=ec2-user n=ansible | [WARNING]: Error in vault password prompt (default): Passwords do not match
+
+2024-02-07 01:03:11,158 p=18144 u=ec2-user n=ansible | ERROR! Passwords do not match
+2024-02-07 01:03:22,682 p=18244 u=ec2-user n=ansible | Encryption successful
