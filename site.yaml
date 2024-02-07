@@ -1,0 +1,8 @@
+---
+- hosts: db
+  become: true
+  gather_facts: false
+
+  roles:
+   - apache
+   - system
